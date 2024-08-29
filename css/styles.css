@@ -67,6 +67,18 @@ html ::-webkit-scrollbar-track {
   border-bottom: 2px solid #429DD0;
 display: inline-block;
 }
+
+.section-header .section-title1 {
+  font-size: 44px;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 0 20px;  
+
+  border-bottom: 2px solid #429DD0;
+display: inline-block;
+}
 .section-header .section-title:before {
   content: "";
   position: absolute;
@@ -82,7 +94,7 @@ display: inline-block;
   border-radius: 0;
 }
 .btn.btn-primary {
-  background: #62BDF0;
+  background: #0f75ae;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
@@ -202,7 +214,7 @@ background: #001033;
   #main-nav.navbar-default .navbar-nav > li.open > a,
   #main-nav.navbar-default .navbar-nav > li:hover > a { 
 	
-    color: #62BDF0;
+    color: #0f75ae;
   
 }
   #main-nav.navbar-default .dropdown-menu {
@@ -243,7 +255,7 @@ background: #001033;
 }
 #hero-banner{
   overflow: hidden;
-  height:650px;
+  height:750px;
   color: #000000;
   border-bottom: 1px solid #BDBDBD;
 }
@@ -263,7 +275,7 @@ background: #001033;
   
 }
 #hero-banner{
-  background: #F7F7F7 url('../images/background.jpg') no-repeat 92% bottom; 
+  background: #F7F7F7 url('../images/background.png') no-repeat 92% bottom; 
 
   }
 #hero-banner h2 {
@@ -377,12 +389,12 @@ background: #001033;
   display: block;
   padding: 7px 15px;
   margin:0px 2px;
-  color: #62BDF0;
+  color: #0f75ae;
   position: relative;
 }
 #portfolio .portfolio-filter > li a:hover,
 #portfolio .portfolio-filter > li a.active {
-  background: #62BDF0;
+  background: #0f75ae;
   color: #FFFFFF; 
 } 
 #portfolio .portfolio-items {
@@ -409,7 +421,7 @@ background: #001033;
 #portfolio .portfolio-item .portfolio-item-inner h4{
 font-weight:400;
 font-size: 16px;
-color: #62BDF0;
+color: #0f75ae;
 }
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
   opacity: 0;
@@ -622,7 +634,7 @@ color: rgb(40, 141, 203);
 	color: #fff;
 	font-size: 16px;
 	line-height: 30px;
-	margin: 10px 15px 10px 0;
+	margin: 10px 110px 10px 0;
 }
 .download-btn
 {
@@ -666,7 +678,7 @@ color: #4F4F4F;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #62bdf0;
+  background: #0f75ae;
   -moz-transform: skewY(-3deg);
   -o-transform: skewY(-3deg);
   -ms-transform: skewY(-3deg);
@@ -679,7 +691,7 @@ color: #fff !important;
 /*Team*/ 
 #team {
   padding: 140px 0;
-  background-color: #62bdf0;
+  background-color: #0f75ae;
 }
  
 /*Testimonial Area*/
@@ -725,10 +737,11 @@ border-right: 22px solid transparent;
 }
 .download-now .features p{
 padding:0px;
+line-height: px;
 margin: 15px 0;
 }
  .features .media.service-box .pull-left > i{
-color: #62BDF0;
+color: #0f75ae;
 /* border: 4px solid #fff; */
 }
 .features .media.service-box {
@@ -801,7 +814,7 @@ color: #62BDF0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #62bdf0;
+  background: #0f75ae;
   -moz-transform: skewY(-3deg);
   -o-transform: skewY(-3deg);
   -ms-transform: skewY(-3deg);
@@ -894,7 +907,7 @@ color: #62BDF0;
 color: #FFFFFF;
 }
 #pricing ul.pricing.featured li.plan-header {
-  background: #62BDF0;
+  background: #0f75ae;
   border-bottom: 2px solid #429DD0;
 }
 #pricing ul.pricing.featured li.plan-header .plan-name {
@@ -1003,6 +1016,14 @@ margin-top: 280px;
 font-size: 26px;
 line-height: 40px;
 padding: 10px;
+}
+
+.download-now p
+{
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+	margin: 10px 10px 10px 0;
 }
 #hero-banner p {
 font-size: 18px;
