@@ -253,49 +253,50 @@ background: #001033;
     background-color: transparent;
   }
 }
-#hero-banner{
+#hero-banner {
+  position: relative; /* Torna o container pai do botão posicionado */
   overflow: hidden;
-  height:750px;
+  height: 750px;
   color: #000000;
   border-bottom: 1px solid #BDBDBD;
-}
-#hero-banner.item {
-  height: 558px;
-  background-repeat: no-repeat;
-  background-position: 50% 0;
+  background: #F7F7F7 url('../images/background.png') no-repeat 92% bottom;
   background-size: cover;
+  background-position: center;
 }
-#hero-banner.banner-inner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: #000;
+
+#hero-banner .btn-whatsapp {
   
+  position: absolute; /* Para posicionar o botão em relação ao container */
+  bottom: 30px; /* Define o botão a 30px da parte inferior */
+  left: 10%; /* Centraliza o botão horizontalmente */
+  transform: translateY(1300%); /* Ajusta o botão para estar centralizado exatamente */
+  padding: 12px 25px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #337ab7;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
-#hero-banner{
-  background: #F7F7F7 url('../images/background.png') no-repeat 92% bottom; 
 
+#hero-banner .btn-whatsapp:hover {
+  background-color: #123b5f;
+}
+
+@media (max-width: 768px) {
+  #hero-banner {
+      height: 500px; /* Reduz a altura em telas menores */
+      background: #F7F7F7 url('../images/mobile-background.png') no-repeat center center; /* Imagem específica para mobile */
+      background-size: cover;
+    } 
+
+  #hero-banner .btn-whatsapp {
+    transform: translateY(1000%);
+    left: 25%;
   }
-#hero-banner h2 {
-  margin-top: 180px;
-  font-size: 45px;
-  line-height: 49px;
-    
-} 
-#hero-banner p{
-  font-size: 30px;
-  line-height: 35px
 }
 
-#hero-banner.banner-inner h2 > span {
-  color: #45aed6;
-}
-#hero-banner.banner-inner .btn {
-  margin-top: 10px;
-} 
- 
+
 #hero-text {
   padding: 50px 0;
   border-top: 1px solid #FFFFFF;
@@ -994,12 +995,13 @@ width: 100px;
   margin: 0 -7.5px;
 }
 #footer ul > li {
- display: inline-block; 
-
- border: 1px solid rgba(255, 255, 255, 0.09);
-padding: 3px 0;
-width: 31px;
-text-align: center;
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  padding: 5px 0;
+  width: 65px;
+  height: 40px;
+  text-align: center;
+  font-size: 30px;
 }
 @media only screen and (min-width: 768px) {
   #footer .social-icons {
