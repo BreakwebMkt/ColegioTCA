@@ -264,6 +264,24 @@ background: #001033;
   background-position: center;
 }
 
+#hero-bannerLogo {
+  position: relative; /* Torna o container pai do botão posicionado */
+  overflow: hidden;
+  height: 750px;
+  color: #45aed6;
+  border-bottom: 1px solid #45aed6;
+  background: #ffffff url('../images/backgroundLogo.png') no-repeat center center;
+  background-size: contain; /* Ajusta a imagem para caber dentro do container */
+}
+
+@media (max-width: 768px) {
+  #hero-bannerLogo {
+    height: auto; /* Permite o ajuste da altura em telas menores */
+    min-height: 300px;
+  }
+}
+
+
 #hero-banner .btn-whatsapp {
   
   position: absolute; /* Para posicionar o botão em relação ao container */
